@@ -22,6 +22,7 @@ PACKAGES=(
   kate
   ark
   gvfs-mtp
+  shotwell
 )
 
 # Update package database
