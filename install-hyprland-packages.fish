@@ -21,7 +21,8 @@ set PACKAGES \
   libreoffice-fresh \
   kate \
   ark \
-  gvfs-mtp
+  gvfs-mtp \
+  shotwell
 
 # Update package database
 echo "Updating package database..."
