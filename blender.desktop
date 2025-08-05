@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Blender
+GenericName=3D Modeler
+Comment=3D modeling, animation, rendering and post-production
+Exec=/home/amrit/Programs/blender-4.2.9-linux-x64/blender %f
+Icon=/home/amrit/Programs/blender-4.2.9-linux-x64/blender.svg
+Terminal=false
+Type=Application
+Categories=Graphics;3DGraphics;
