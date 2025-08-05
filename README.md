@@ -7,4 +7,5 @@ sudo ./install-hyprland-packages.fish
 Save it in ~/.local/share/applications/
 
 Make it executable chmod +x Then run
+
 update-desktop-database ~/.local/share/applications/
