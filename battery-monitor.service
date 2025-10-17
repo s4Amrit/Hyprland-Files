@@ -1,0 +1,11 @@
+[Unit] 
+Description=Battery Monitor for Low Battery Alert 
+After=default.target
+
+[Service] 
+ExecStart=/bin/bash -c 'while true; do ~/.config/hypr/scripts/battery_monitor.sh; sleep 30; done' 
+Restart=always 
+RestartSec=10
+
+[Install] 
+WantedBy=default.target
