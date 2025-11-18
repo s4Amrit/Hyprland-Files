@@ -22,7 +22,10 @@ set PACKAGES \
   kate \
   ark \
   gvfs-mtp \
-  shotwell
+  shotwell \
+  protonup-qt \
+  blueberry \
+  timeshift
 
 # Update package database
 echo "Updating package database..."
