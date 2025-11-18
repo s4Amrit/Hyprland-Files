@@ -23,6 +23,9 @@ PACKAGES=(
   ark
   gvfs-mtp
   shotwell
+  protonup-qt
+  blueberry
+  timeshift
 )
 
 # Update package database
