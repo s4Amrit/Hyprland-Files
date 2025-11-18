@@ -26,6 +26,8 @@ PACKAGES=(
   protonup-qt
   blueberry
   timeshift
+  nautilus
+  gnome-terminal
 )
 
 # Update package database
