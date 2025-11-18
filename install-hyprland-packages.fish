@@ -25,7 +25,9 @@ set PACKAGES \
   shotwell \
   protonup-qt \
   blueberry \
-  timeshift
+  timeshift \
+  nautilus \
+  gnome-terminal
 
 # Update package database
 echo "Updating package database..."
