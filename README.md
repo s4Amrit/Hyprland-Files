@@ -1,8 +1,8 @@
-1.)#Running install script
+#1.) Running install script
 
     sudo ./install-hyprland-packages.fish
 
-2.)#Blender Desktop File
+#2.) Blender Desktop File
 
     Save it in ~/.local/share/applications/
 
@@ -10,7 +10,7 @@
 
     update-desktop-database ~/.local/share/applications/
 
-3.)#Battery status 
+#3.) Battery status 
 
     chmod +x ~/.config/hypr/scripts/battery_monitor.sh
 
@@ -30,7 +30,7 @@
 
     paplay /usr/share/sounds/Pop/stereo/alert/battery-low.oga
 
-4.)#Changing Mouse cursor
+#4.) Changing Mouse cursor
 
     Download cursor file from gnome-look
 
@@ -42,5 +42,5 @@
 
     Then in hypland config put(For Jakoolit it will be hyprland.conf) 
 
-exec-once=hyprctl setcursor [THEME] [SIZE]
+    exec-once=hyprctl setcursor [THEME] [SIZE]
 
