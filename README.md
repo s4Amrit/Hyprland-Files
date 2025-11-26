@@ -56,4 +56,4 @@
     exec-once = ~/Programs/acer-predator-turbo-and-rgb-keyboard-linux-module/facer_rgb.py -m 0 -z 1 -cR 255 -cG 0 -cB 0
     exec-once = ~/Programs/acer-predator-turbo-and-rgb-keyboard-linux-module/facer_rgb.py -m 0 -z 2 -cR 0 -cG 255 -cB 0
     exec-once = ~/Programs/acer-predator-turbo-and-rgb-keyboard-linux-module/facer_rgb.py -m 0 -z 3 -cR 0 -cG 0 -cB 255
-    exec-once = ~/Programs/acer-predator-turbo-and-rgb-keyboard-linux-module/facer_rgb.py -m 0 -z 4 -cR 255 -cG 255 -cB 0
+    exec-once = ~/Programs/acer-predator-turbo-and-rgb-keyboard-linux-module/facer_rgb.py -m 0 -z 4 -cR 255 -cG 0 -cB 255
