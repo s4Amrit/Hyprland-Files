@@ -43,4 +43,17 @@
     Then in hypland config put(For Jakoolit it will be hyprland.conf) 
 
     exec-once=hyprctl setcursor [THEME] [SIZE]
+    
+ #5.) StartupApps.conf add these    
+    
+    #Octopi-notifier
+    exec-once = /usr/bin/octopi-notifier
 
+    #Cursor fix
+    exec-once = hyprctl setcursor Bibata-Modern-Classic 24
+
+    #Keyboard Backlight set the 4 zones to red, green, blue, purple
+    exec-once = ~/Programs/acer-predator-turbo-and-rgb-keyboard-linux-module/.facer_rgb.py -m 0 -z 1 -cR 255 -cG 0 -cB 0
+    exec-once = ~/Programs/acer-predator-turbo-and-rgb-keyboard-linux-module/.facer_rgb.py -m 0 -z 2 -cR 0 -cG 255 -cB 0
+    exec-once = ~/Programs/acer-predator-turbo-and-rgb-keyboard-linux-module/.facer_rgb.py -m 0 -z 3 -cR 0 -cG 0 -cB 255
+    exec-once = ~/Programs/acer-predator-turbo-and-rgb-keyboard-linux-module/.facer_rgb.py -m 0 -z 4 -cR 255 -cG 255 -cB 0
