@@ -28,6 +28,7 @@ PACKAGES=(
   timeshift
   nautilus
   gnome-terminal
+  rocm-smi-lib
 )
 
 # Update package database
