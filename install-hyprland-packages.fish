@@ -27,7 +27,8 @@ set PACKAGES \
   blueberry \
   timeshift \
   nautilus \
-  gnome-terminal
+  gnome-terminal \
+  rocm-smi-lib
 
 # Update package database
 echo "Updating package database..."
