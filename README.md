@@ -57,3 +57,9 @@
     exec-once = ~/Programs/acer-predator-turbo-and-rgb-keyboard-linux-module/facer_rgb.py -m 0 -z 2 -b 100 -cR 0 -cG 255 -cB 0
     exec-once = ~/Programs/acer-predator-turbo-and-rgb-keyboard-linux-module/facer_rgb.py -m 0 -z 3 -b 100 -cR 0 -cG 0 -cB 255
     exec-once = ~/Programs/acer-predator-turbo-and-rgb-keyboard-linux-module/facer_rgb.py -m 0 -z 4 -b 100 -cR 255 -cG 0 -cB 255
+
+#6.) Window rule to move qbittorrent to Workspace 3
+
+    Edit the windowrules.conf file add
+    
+    windowrule = workspace 3, class:^(org\.qbittorrent\.qBittorrent)$
