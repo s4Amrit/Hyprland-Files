@@ -29,6 +29,7 @@ PACKAGES=(
   nautilus
   gnome-terminal
   rocm-smi-lib
+  geoclue
 )
 
 # Update package database
