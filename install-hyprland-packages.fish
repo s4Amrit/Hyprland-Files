@@ -28,7 +28,8 @@ set PACKAGES \
   timeshift \
   nautilus \
   gnome-terminal \
-  rocm-smi-lib
+  rocm-smi-lib \
+  geoclue
 
 # Update package database
 echo "Updating package database..."
