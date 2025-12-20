@@ -88,7 +88,7 @@ Finally change Env.conf file for hyprland add below line
  ls -l /dev/dri/nvidia-gpu
  ls -l /dev/dri/amd-igpu )
 
-env = AQ_DRM_DEVICES, /dev/dri/amd-igpu:/dev/dri/nvidia-gpu
+env = AQ_DRM_DEVICES,/dev/dri/amd-igpu:/dev/dri/nvidia-gpu
 
 Restart the system
 
