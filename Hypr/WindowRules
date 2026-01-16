@@ -1,0 +1,40 @@
+# browser tags
+windowrule = tag +browser, match:class ^(Brave-browser(-beta|-dev|-unstable)?)$
+windowrule = tag +browser, match:class ^(zen-alpha|zen)$
+
+# terminal tags
+windowrule = tag +terminal, match:class ^(Alacritty|kitty|kitty-dropterm)$
+
+# screenshare tags
+windowrule = tag +screenshare, match:class ^(com.obsproject.Studio)$
+
+# game tags
+windowrule = tag +games, match:class ^(gamescope)$
+windowrule = tag +games, match:class ^(steam_app_\d+)$
+
+# gamestore tags
+windowrule = tag +gamestore, match:class ^([Ss]team)$
+windowrule = tag +gamestore, match:title ^([Ll]utris)$
+windowrule = tag +gamestore, match:class ^(com.heroicgameslauncher.hgl)$
+
+# file-manager tags
+windowrule = tag +file-manager, match:class ^([Tt]hunar|org.gnome.Nautilus|[Pp]cmanfm-qt|[Nn]emo)$
+
+# multimedia-video tags
+windowrule = tag +multimedia_video, match:class ^([Mm]pv|vlc)$
+
+windowrule = float on, match:class (org.gnome.Calculator), match:title (Calculator)
+windowrule = float on, match:class ^([Qq]alculate-gtk)$
+
+# BLUR & FULLSCREEN
+windowrule = no_blur on, match:tag games*
+windowrule = fullscreen on, match:tag games*
+
+#Move to workspace
+windowrule = workspace 2, match:tag browser*
+windowrule = workspace 3, match:class ^(org\.qbittorrent\.qBittorrent)$
+windowrule = workspace 4 silent, match:tag screenshare*
+windowrule = workspace 5, match:tag gamestore*
+windowrule = workspace 8, match:tag games*
+windowrule = workspace 9 silent, match:tag multimedia*
+
