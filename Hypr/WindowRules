@@ -38,3 +38,5 @@ windowrule = workspace 5, match:tag gamestore*
 windowrule = workspace 8, match:tag games*
 windowrule = workspace 9 silent, match:tag multimedia*
 
+windowrulev2 = opacity 0.8 0.8, class:^(nemo)$
+
