@@ -29,3 +29,5 @@ bindd = $mainMod SHIFT, code:18, move to workspace 9, movetoworkspace, 9 # NOTE:
 bindd = $mainMod SHIFT, code:19, move to workspace 10, movetoworkspace, 10 # NOTE: code:19 = key 0
 
 bind = Control_L & Shift_L, Escape, exec, alacritty -e btop
+bind=$mainMod,d,exec,qs ipc call launcher toggle
+bind = SUPER, V, exec, qs ipc call launcher clipboard
