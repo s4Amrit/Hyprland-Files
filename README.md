@@ -63,3 +63,10 @@
     Edit the windowrules.conf file add
     
     windowrule = workspace 3, class:^(org\.qbittorrent\.qBittorrent)$
+    
+#7.) Thumbnailer fix
+
+    MKV is now registered as video/matroska instead of the old video/x-matroska. Some thumbnailers still miss the new type.
+    Check the ffmpegthumbnailer file:
+    cat /usr/share/thumbnailers/ffmpegthumbnailer.thumbnailer
+    If "video/matroska" NOT apllication/matroska is missing from the MimeType= line, you can temporarily add it (or wait for package update).
