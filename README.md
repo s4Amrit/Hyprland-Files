@@ -70,3 +70,7 @@
     Check the ffmpegthumbnailer file:
     cat /usr/share/thumbnailers/ffmpegthumbnailer.thumbnailer
     If "video/matroska" NOT apllication/matroska is missing from the MimeType= line, you can temporarily add it (or wait for package update).
+    
+#8.) Emudeck symlink
+        
+    ln -s /mnt/Noosphere/Emudeck/ /home/amrit/Programs/Emudeck
