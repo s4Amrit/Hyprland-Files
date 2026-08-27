@@ -13,7 +13,7 @@ hl.workspace_rule({ workspace = "5", monitor = MONITOR1, default = true, persist
 
 hl.window_rule({ tag = "+gamestore", match = { class = "^([Ss]team)$" } })
 hl.window_rule({ tag = "+gamestore", match = { class = "net.lutris.Lutris|lutris" } })
-hl.window_rule({ tag = "+gamestore", match = { class = "heroic" } })
+hl.window_rule({ tag = "+gamestore", match = { class = "io.github.Faugus.faugus-launcher" } })
 
 
 hl.window_rule({ workspace = 1, match = { initial_class = "zen" }})
