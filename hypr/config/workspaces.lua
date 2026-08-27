@@ -11,4 +11,11 @@ hl.workspace_rule({ workspace = "5", monitor = MONITOR1, default = true, persist
 -- For other layouts such as scrolling, see example below
 -- hl.workspace_rule({ workspace = "1", monitor = MONITOR1, default = true, persistent = true, layout = scroling })
 
-hl.window_rule({ workspace = 3, match = { class = "org\\.qbittorrent\\.qBittorrent" } })
+hl.window_rule({ tag = "+gamestore", match = { class = "^([Ss]team)$" } })
+hl.window_rule({ tag = "+gamestore", match = { class = "net.lutris.Lutris|lutris" } })
+hl.window_rule({ tag = "+gamestore", match = { class = "heroic" } })
+
+
+hl.window_rule({ workspace = 1, match = { initial_class = "zen" }})
+hl.window_rule({ workspace = 3, match = { class = "org\\.qbittorrent\\.qBittorrent" }})
+hl.window_rule({ workspace = 5, match = { tag = "gamestore" }})
